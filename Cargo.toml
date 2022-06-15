@@ -1,0 +1,15 @@
+[package]
+name = "arson"
+version = "0.2.0"
+edition = "2018"
+description = "arson is a simple rust json library for parsing string. it has nice formatted colored output"
+documentation = "https://docs.rs/arson/latest/arson/"
+repository = "https://www.github.com/hermanbrunborg/arson"
+license = "MIT"
+keywords = ["parser", "json", "json-parser"]
+categories = ["parsing", "parser-implementations"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "1.5.6"
