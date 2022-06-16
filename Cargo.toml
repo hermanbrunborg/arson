@@ -1,6 +1,6 @@
 [package]
 name = "arson"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2018"
 description = "arson is a simple rust json library for parsing string. it has nice formatted colored output"
 documentation = "https://docs.rs/arson/latest/arson/"

@@ -7,11 +7,17 @@ use termion::color;
 /// Contains the JSON types and can be used to parse strings to json
 #[derive(PartialEq)]
 pub enum JSON {
+    /// JSON Object
     Object(HashMap<String, JSON>),
+    /// JSON Array
     Array(Vec<JSON>),
+    /// JSON String
     String(String),
+    /// JSON Number
     Number(f64),
+    /// JSON Boolean
     Bool(bool),
+    /// JSON Null
     Null,
 }
 

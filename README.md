@@ -58,10 +58,10 @@ Output
 ```
 {
     "address": {
-        "city": "London"[39m,
-        "street": "10 Downing Street"[39m,
+        "city": "London",
+        "street": "10 Downing Street",
     },
-    "name": "John Doe"[39m,
+    "name": "John Doe",
     "age": 43,
     "phones": [
         +44 1234567,

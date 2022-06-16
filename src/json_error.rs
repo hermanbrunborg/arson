@@ -23,6 +23,7 @@ impl fmt::Debug for JSONError {
 }
 
 impl JSONError {
+    /// Create a new json error
     pub fn new(msg: String, line: usize, col: usize) -> Self {
         Self { msg, line, col }
     }

@@ -3,6 +3,7 @@ use std::collections::HashMap;
 use std::iter::Peekable;
 
 /// JSON parser
+#[derive(Debug)]
 pub struct Parser<I>
 where
     I: Iterator<Item = char>,
