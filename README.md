@@ -1,3 +1,6 @@
+[![Crates.io](https://img.shields.io/crates/v/arson.svg)](https://crates.io/crates/arson)
+[![Documentation](https://docs.rs/arson/badge.svg)](https://docs.rs/arson)
+
 # arson
 
 **arson** is a simple rust json library for parsing string. it has nice formatted colored output
